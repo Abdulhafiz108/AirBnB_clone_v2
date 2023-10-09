@@ -1,1 +1,1 @@
-This directory implements webpage design.
+README_WebStatic.md
