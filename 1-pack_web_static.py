@@ -9,9 +9,7 @@ from fabric.api import *
 
 
 def do_pack():
-    """
-    making an my_archive on web_static folder
-    """
+    """making an my_archive on web_static folder"""
 
     my_time = datemy_time.now()
     my_archive = 'web_static_' + my_time.strfmy_time("%Y%m%d%H%M%S") + '.' + 'tgz'
